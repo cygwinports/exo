@@ -1,0 +1,8 @@
+category: Xfce
+requires: cygwin glib2-devel gtk2-x11-devel libX11-devel libcairo-devel gettext libxfce4util-devel pango-devel
+external-source: exo
+sdesc: "Xfce extension library (development)"
+ldesc: "This is libexo, an extension library to Xfce, developed by 
+os-cillation. While Xfce comes with quite a few libraries that are 
+targeted at desktop development, libexo is targeted at application 
+development."

@@ -1,0 +1,12 @@
+XFCE_VERSION=4.4.1
+inherit python xfce4
+
+DESCRIPTION="Xfce4 extension library"
+
+PKG_NAMES="${PN} libexo${PV_MAJ_MIN//.} libexo${PV_MAJ_MIN//.}-devel python-exo"
+PKG_HINTS="setup lib devel python"
+PKG_CONTENTS[0]="etc/ usr/bin/exo-* usr/lib/xfce4/mcs-plugins/ usr/share/applications/
+	usr/share/doc/ usr/share/icons/ usr/share/man/ usr/share/xfce4/"
+PKG_CONTENTS[1]='usr/bin/*.dll usr/lib/xfce4/exo* usr/share/locale/ usr/share/pixmaps/'
+PKG_CONTENTS[2]='usr/include/ usr/lib/lib* usr/lib/pkgconfig/'
+PKG_CONTENTS[3]="${PYTHON_SITELIB#/} usr/share/pygtk/"
