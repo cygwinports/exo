@@ -1,4 +1,4 @@
-category: Xfce
+category: Gnome
 requires: cygwin atk glib2 gtk2-x11 libX11_6 libcairo2 libintl8 libxfce4util pango
 external-source: exo
 sdesc: "Xfce extension library (runtime)"

@@ -1,5 +1,5 @@
-category: Xfce
-requires: cygwin glib2 gtk2-x11 libexo03 libintl8 libxfce4util pango xfce-mcs-manager
+category: Gnome
+requires: cygwin glib2 gtk2-x11 libexo03 libintl8 libnotify libxfce4util pango
 sdesc: "Xfce extension library (utilities)"
 ldesc: "This is libexo, an extension library to Xfce, developed by 
 os-cillation. While Xfce comes with quite a few libraries that are 

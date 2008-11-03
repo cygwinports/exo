@@ -1,0 +1,24 @@
+--- origsrc/exo-0.3.91/exo/exo-mount-point.c	2008-06-14 17:01:14.000000000 -0500
++++ src/exo-0.3.91/exo/exo-mount-point.c	2008-10-31 02:32:23.327691500 -0500
+@@ -196,7 +196,9 @@
+ {
+   GSList *mount_points = NULL;
+ 
+-#if defined(HAVE_SETMNTENT) /* Linux */
++#if defined(__CYGWIN__)
++  return NULL;
++#elif defined(HAVE_SETMNTENT) /* Linux */
+   struct mntent *mntent;
+   FILE          *fp;
+ 
+@@ -328,7 +330,9 @@
+ {
+   GSList *mount_points = NULL;
+ 
+-#if defined(HAVE_SETMNTENT) /* Linux */
++#if defined(__CYGWIN__)
++  return NULL;
++#elif defined(HAVE_SETMNTENT) /* Linux */
+   struct mntent *mntent;
+   FILE          *fp;
+ 
