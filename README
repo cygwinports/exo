@@ -6,16 +6,16 @@ development, libexo is targeted at application development.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  atk-1.22.0-1
-  gdk-pixbuf2-2.12.12-1
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
+  libatk1.0_0-1.24.0-1
   libcairo2-1.6.4-2
-  libintl8-0.17-1
-  libnotify-0.4.4-1
+  libgdk_pixbuf2.0_0-2.14.6-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.6-1
+  libintl8-0.17-2
+  libnotify1-0.4.5-1
+  libpango1.0_0-1.22.4-1
   libX11_6-1.1.5-1
-  libxfce4util-4.5.91-1
-  pango-1.20.5-1
+  libxfce4util4-4.5.92-1
 (python-exo)
   python-2.5.2-3
   python-gobject2-2.14.2-1
@@ -24,7 +24,7 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
   cygport-0.4.3-1
   gawk-3.1.6-1
@@ -33,7 +33,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.91-1
+  xfce4-dev-tools-4.5.92-1
 
 Canonical website:
   http://www.xfce.org/
@@ -44,18 +44,18 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack exo-0.3.91-X-src.tar.bz2
+  unpack exo-0.3.92-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./exo-0.3.91-X.cygport all
+  cygport ./exo-0.3.92-X.cygport all
 
 This will create:
-  /usr/src/exo-0.3.91-X-src.tar.bz2
-  /usr/src/exo-0.3.91-X.tar.bz2
-  /usr/src/libexo03-0.3.91-X.tar.bz2
-  /usr/src/libexo03-devel-0.3.91-X.tar.bz2
-  /usr/src/python-exo-0.3.91-X.tar.bz2
+  /usr/src/exo-0.3.92-X-src.tar.bz2
+  /usr/src/exo-0.3.92-X.tar.bz2
+  /usr/src/libexo0.3-devel-0.3.92-X.tar.bz2
+  /usr/src/libexo0.3_0-0.3.92-X.tar.bz2
+  /usr/src/python-exo0.3-0.3.92-X.tar.bz2
 
 -------------------------------------------
 
@@ -72,16 +72,16 @@ Files included in the binary packages:
   /usr/bin/exo-preferred-applications
   /usr/bin/exo-unmount
   /usr/share/applications/exo-preferred-applications.desktop
-  /usr/share/doc/exo-0.3.91/AUTHORS
-  /usr/share/doc/exo-0.3.91/COPYING
-  /usr/share/doc/exo-0.3.91/COPYING.LIB
-  /usr/share/doc/exo-0.3.91/ChangeLog
-  /usr/share/doc/exo-0.3.91/HACKING
-  /usr/share/doc/exo-0.3.91/INSTALL
-  /usr/share/doc/exo-0.3.91/NEWS
-  /usr/share/doc/exo-0.3.91/README
-  /usr/share/doc/exo-0.3.91/THANKS
-  /usr/share/doc/exo-0.3.91/TODO
+  /usr/share/doc/exo-0.3.92/AUTHORS
+  /usr/share/doc/exo-0.3.92/COPYING
+  /usr/share/doc/exo-0.3.92/COPYING.LIB
+  /usr/share/doc/exo-0.3.92/ChangeLog
+  /usr/share/doc/exo-0.3.92/HACKING
+  /usr/share/doc/exo-0.3.92/INSTALL
+  /usr/share/doc/exo-0.3.92/NEWS
+  /usr/share/doc/exo-0.3.92/README
+  /usr/share/doc/exo-0.3.92/THANKS
+  /usr/share/doc/exo-0.3.92/TODO
   /usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png
   /usr/share/icons/hicolor/48x48/apps/applications-internet.png
   /usr/share/icons/hicolor/48x48/apps/applications-other.png
@@ -135,7 +135,7 @@ Files included in the binary packages:
   /usr/share/xfce4/helpers/w3m.desktop
   /usr/share/xfce4/helpers/xterm.desktop
 
-(libexo03)
+(libexo0.3_0)
   /usr/bin/cygexo-0.3-0.dll
   /usr/bin/cygexo-hal-0.3-0.dll
   /usr/lib/xfce4/exo-compose-mail-0.3
@@ -181,7 +181,7 @@ Files included in the binary packages:
   /usr/share/locale/zh_CN/LC_MESSAGES/libexo-0.3.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/libexo-0.3.mo
 
-(libexo03-devel)
+(libexo0.3-devel)
   /usr/include/exo-0.3/exo-hal/exo-hal.h
   /usr/include/exo-0.3/exo/exo-binding.h
   /usr/include/exo-0.3/exo/exo-cell-renderer-ellipsized-text.h
@@ -269,7 +269,7 @@ Files included in the binary packages:
   /usr/share/gtk-doc/html/exo/style.css
   /usr/share/gtk-doc/html/exo/up.png
 
-(python-exo)
+(python-exo0.3)
   /usr/lib/python2.5/site-packages/exo-0.3/_exo.dll
   /usr/lib/python2.5/site-packages/exo-0.3/_exo.la
   /usr/lib/python2.5/site-packages/exo-0.3/exo/__init__.py
@@ -284,8 +284,11 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.3.91-1 -----
+----- version 0.3.92-1 -----
 Version bump for Xfce 4.6-beta2.
+
+----- version 0.3.91-1 -----
+Version bump for Xfce 4.6-beta1.
 
 ----- version 0.3.2-2 -----
 Rebuilt for python-2.5.

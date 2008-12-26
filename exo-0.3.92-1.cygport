@@ -1,0 +1,16 @@
+XFCE_VERSION=4.5.${PV[3]}
+inherit python xfce4
+
+DESCRIPTION="Xfce4 extension library"
+
+PATCH_URI="0.3.91-mount-points.patch
+           0.3.91-no-undefined.patch"
+
+PKG_NAMES="${PN} libexo0.3_0 libexo0.3-devel python-exo0.3"
+exo_CONTENTS="etc/ usr/bin/exo-* usr/share/applications/ usr/share/doc/
+                 usr/share/icons/ usr/share/man/ usr/share/xfce4/"
+libexo0_3_0_CONTENTS='usr/bin/*-0.3-0.dll usr/lib/xfce4/exo* usr/share/locale/ usr/share/pixmaps/'
+libexo0_3_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/'
+python_exo0_3_CONTENTS="${PYTHON_SITELIB#/} usr/share/pygtk/"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/xfce4"

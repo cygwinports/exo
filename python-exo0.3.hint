@@ -1,7 +1,7 @@
-category: Gnome
-requires: cygwin glib2-devel gtk2-x11-devel libX11-devel libcairo-devel gettext libxfce4util-devel pango-devel libexo03
+category: Gnome Python
+requires: cygwin libglib2.0_0 libgtk2.0_0 libexo0.3_0 python python-gobject2 python-gtk2
 external-source: exo
-sdesc: "Xfce extension library (development)"
+sdesc: "Xfce extension library (Python bindings)"
 ldesc: "This is libexo, an extension library to Xfce, developed by 
 os-cillation. While Xfce comes with quite a few libraries that are 
 targeted at desktop development, libexo is targeted at application 
