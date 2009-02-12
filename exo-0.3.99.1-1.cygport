@@ -1,5 +1,5 @@
-XFCE_VERSION=4.5.${PV[3]}
-inherit python xfce4
+XFCE_VERSION=4.5.${PV#0.3.}
+inherit pygtk xfce4
 
 DESCRIPTION="Xfce4 extension library"
 

@@ -7,19 +7,19 @@ development, libexo is targeted at application development.
 Runtime requirements:
   cygwin-1.5.25-15
   libatk1.0_0-1.24.0-1
-  libcairo2-1.6.4-2
-  libgdk_pixbuf2.0_0-2.14.6-1
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.6-1
+  libcairo2-1.8.6-1
+  libgdk_pixbuf2.0_0-2.14.7-2
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
   libintl8-0.17-2
   libnotify1-0.4.5-1
   libpango1.0_0-1.22.4-1
-  libX11_6-1.1.5-1
-  libxfce4util4-4.5.92-1
+  libX11_6-1.1.5-2
+  libxfce4util4-4.5.99.1-1
 (python-exo)
-  python-2.5.2-3
-  python-gobject2-2.14.2-1
-  python-gtk2-2.12.1-1
+  python-2.5.4-1
+  python-gobject2-2.16.0-1
+  python-gtk2-2.14.0-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -33,7 +33,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.92-1
+  xfce4-dev-tools-4.5.99.1-1
 
 Canonical website:
   http://www.xfce.org/
@@ -44,18 +44,18 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack exo-0.3.92-X-src.tar.bz2
+  unpack exo-0.3.99.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./exo-0.3.92-X.cygport all
+  cygport ./exo-0.3.99.1-X.cygport all
 
 This will create:
-  /usr/src/exo-0.3.92-X-src.tar.bz2
-  /usr/src/exo-0.3.92-X.tar.bz2
-  /usr/src/libexo0.3-devel-0.3.92-X.tar.bz2
-  /usr/src/libexo0.3_0-0.3.92-X.tar.bz2
-  /usr/src/python-exo0.3-0.3.92-X.tar.bz2
+  /usr/src/exo-0.3.99.1-X-src.tar.bz2
+  /usr/src/exo-0.3.99.1-X.tar.bz2
+  /usr/src/libexo0.3-devel-0.3.99.1-X.tar.bz2
+  /usr/src/libexo0.3_0-0.3.99.1-X.tar.bz2
+  /usr/src/python-exo0.3-0.3.99.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -72,16 +72,16 @@ Files included in the binary packages:
   /usr/bin/exo-preferred-applications
   /usr/bin/exo-unmount
   /usr/share/applications/exo-preferred-applications.desktop
-  /usr/share/doc/exo-0.3.92/AUTHORS
-  /usr/share/doc/exo-0.3.92/COPYING
-  /usr/share/doc/exo-0.3.92/COPYING.LIB
-  /usr/share/doc/exo-0.3.92/ChangeLog
-  /usr/share/doc/exo-0.3.92/HACKING
-  /usr/share/doc/exo-0.3.92/INSTALL
-  /usr/share/doc/exo-0.3.92/NEWS
-  /usr/share/doc/exo-0.3.92/README
-  /usr/share/doc/exo-0.3.92/THANKS
-  /usr/share/doc/exo-0.3.92/TODO
+  /usr/share/doc/exo-0.3.99.1/AUTHORS
+  /usr/share/doc/exo-0.3.99.1/COPYING
+  /usr/share/doc/exo-0.3.99.1/COPYING.LIB
+  /usr/share/doc/exo-0.3.99.1/ChangeLog
+  /usr/share/doc/exo-0.3.99.1/HACKING
+  /usr/share/doc/exo-0.3.99.1/INSTALL
+  /usr/share/doc/exo-0.3.99.1/NEWS
+  /usr/share/doc/exo-0.3.99.1/README
+  /usr/share/doc/exo-0.3.99.1/THANKS
+  /usr/share/doc/exo-0.3.99.1/TODO
   /usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png
   /usr/share/icons/hicolor/48x48/apps/applications-internet.png
   /usr/share/icons/hicolor/48x48/apps/applications-other.png
@@ -283,6 +283,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 0.3.99.1-1 -----
+Version bump for Xfce 4.6-rc1.
 
 ----- version 0.3.92-1 -----
 Version bump for Xfce 4.6-beta2.
