@@ -15,10 +15,10 @@ Runtime requirements:
   libnotify1-0.4.5-1
   libpango1.0_0-1.22.4-1
   libX11_6-1.1.5-2
-  libxfce4util4-4.5.99.1-1
+  libxfce4util4-4.6.0-1
 (python-exo)
   python-2.5.4-1
-  python-gobject2-2.16.0-1
+  python-gobject2-2.16.1-1
   python-gtk2-2.14.0-1
 
 Build requirements:
@@ -33,7 +33,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.99.1-1
+  xfce4-dev-tools-4.6.0-1
 
 Canonical website:
   http://www.xfce.org/
@@ -44,18 +44,18 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack exo-0.3.99.1-X-src.tar.bz2
+  unpack exo-0.3.100-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./exo-0.3.99.1-X.cygport all
+  cygport ./exo-0.3.100-X.cygport all
 
 This will create:
-  /usr/src/exo-0.3.99.1-X-src.tar.bz2
-  /usr/src/exo-0.3.99.1-X.tar.bz2
-  /usr/src/libexo0.3-devel-0.3.99.1-X.tar.bz2
-  /usr/src/libexo0.3_0-0.3.99.1-X.tar.bz2
-  /usr/src/python-exo0.3-0.3.99.1-X.tar.bz2
+  /usr/src/exo-0.3.100-X-src.tar.bz2
+  /usr/src/exo-0.3.100-X.tar.bz2
+  /usr/src/libexo0.3-devel-0.3.100-X.tar.bz2
+  /usr/src/libexo0.3_0-0.3.100-X.tar.bz2
+  /usr/src/python-exo0.3-0.3.100-X.tar.bz2
 
 -------------------------------------------
 
@@ -72,16 +72,16 @@ Files included in the binary packages:
   /usr/bin/exo-preferred-applications
   /usr/bin/exo-unmount
   /usr/share/applications/exo-preferred-applications.desktop
-  /usr/share/doc/exo-0.3.99.1/AUTHORS
-  /usr/share/doc/exo-0.3.99.1/COPYING
-  /usr/share/doc/exo-0.3.99.1/COPYING.LIB
-  /usr/share/doc/exo-0.3.99.1/ChangeLog
-  /usr/share/doc/exo-0.3.99.1/HACKING
-  /usr/share/doc/exo-0.3.99.1/INSTALL
-  /usr/share/doc/exo-0.3.99.1/NEWS
-  /usr/share/doc/exo-0.3.99.1/README
-  /usr/share/doc/exo-0.3.99.1/THANKS
-  /usr/share/doc/exo-0.3.99.1/TODO
+  /usr/share/doc/exo-0.3.100/AUTHORS
+  /usr/share/doc/exo-0.3.100/COPYING
+  /usr/share/doc/exo-0.3.100/COPYING.LIB
+  /usr/share/doc/exo-0.3.100/ChangeLog
+  /usr/share/doc/exo-0.3.100/HACKING
+  /usr/share/doc/exo-0.3.100/INSTALL
+  /usr/share/doc/exo-0.3.100/NEWS
+  /usr/share/doc/exo-0.3.100/README
+  /usr/share/doc/exo-0.3.100/THANKS
+  /usr/share/doc/exo-0.3.100/TODO
   /usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png
   /usr/share/icons/hicolor/48x48/apps/applications-internet.png
   /usr/share/icons/hicolor/48x48/apps/applications-other.png
@@ -283,6 +283,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 0.3.100-1 -----
+Version bump.
 
 ----- version 0.3.99.1-1 -----
 Version bump for Xfce 4.6-rc1.

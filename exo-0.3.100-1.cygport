@@ -1,5 +1,7 @@
-XFCE_VERSION=4.5.${PV#0.3.}
-inherit pygtk xfce4
+inherit pygtk
+unset SRC_URI
+XFCE_VERSION=4.6.$((PV[3] - 100))
+inherit xfce4
 
 DESCRIPTION="Xfce4 extension library"
 
