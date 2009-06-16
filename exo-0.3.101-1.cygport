@@ -5,7 +5,7 @@ inherit xfce4
 
 DESCRIPTION="Xfce4 extension library"
 
-PATCH_URI="0.3.91-mount-points.patch
+PATCH_URI="0.3.101-hasmntopt.patch
            0.3.91-no-undefined.patch"
 
 PKG_NAMES="${PN} libexo0.3_0 libexo0.3-devel python-exo0.3"

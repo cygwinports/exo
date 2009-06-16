@@ -5,35 +5,36 @@ While Xfce comes with quite a few libraries that are targeted at desktop
 development, libexo is targeted at application development.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libatk1.0_0-1.24.0-1
+  cygwin-1.7.0-49
+  libatk1.0_0-1.26.0-1
   libcairo2-1.8.6-1
-  libgdk_pixbuf2.0_0-2.14.7-2
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-2
-  libintl8-0.17-2
-  libnotify1-0.4.5-1
-  libpango1.0_0-1.22.4-1
-  libX11_6-1.1.5-2
-  libxfce4util4-4.6.0-1
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libintl8-0.17-11
+  libnotify1-0.4.5-10
+  libpango1.0_0-1.24.2-1
+  libX11_6-1.2-10
+  libxfce4util4-4.6.0-10
 (python-exo)
-  python-2.5.4-1
-  python-gobject2-2.16.1-1
-  python-gtk2-2.14.0-1
+  python-2.5.4-10
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-12
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xfce4-dev-tools-4.6.0-1
+  xfce4-dev-tools-4.6.0-10
 
 Canonical website:
   http://www.xfce.org/
@@ -44,18 +45,18 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack exo-0.3.100-X-src.tar.bz2
+  unpack exo-0.3.101-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./exo-0.3.100-X.cygport all
+  cygport ./exo-0.3.101-X.cygport all
 
 This will create:
-  /usr/src/exo-0.3.100-X-src.tar.bz2
-  /usr/src/exo-0.3.100-X.tar.bz2
-  /usr/src/libexo0.3-devel-0.3.100-X.tar.bz2
-  /usr/src/libexo0.3_0-0.3.100-X.tar.bz2
-  /usr/src/python-exo0.3-0.3.100-X.tar.bz2
+  /usr/src/exo-0.3.101-X-src.tar.bz2
+  /usr/src/exo-0.3.101-X.tar.bz2
+  /usr/src/libexo0.3-devel-0.3.101-X.tar.bz2
+  /usr/src/libexo0.3_0-0.3.101-X.tar.bz2
+  /usr/src/python-exo0.3-0.3.101-X.tar.bz2
 
 -------------------------------------------
 
@@ -72,16 +73,15 @@ Files included in the binary packages:
   /usr/bin/exo-preferred-applications
   /usr/bin/exo-unmount
   /usr/share/applications/exo-preferred-applications.desktop
-  /usr/share/doc/exo-0.3.100/AUTHORS
-  /usr/share/doc/exo-0.3.100/COPYING
-  /usr/share/doc/exo-0.3.100/COPYING.LIB
-  /usr/share/doc/exo-0.3.100/ChangeLog
-  /usr/share/doc/exo-0.3.100/HACKING
-  /usr/share/doc/exo-0.3.100/INSTALL
-  /usr/share/doc/exo-0.3.100/NEWS
-  /usr/share/doc/exo-0.3.100/README
-  /usr/share/doc/exo-0.3.100/THANKS
-  /usr/share/doc/exo-0.3.100/TODO
+  /usr/share/doc/exo/AUTHORS
+  /usr/share/doc/exo/COPYING
+  /usr/share/doc/exo/COPYING.LIB
+  /usr/share/doc/exo/ChangeLog
+  /usr/share/doc/exo/HACKING
+  /usr/share/doc/exo/NEWS
+  /usr/share/doc/exo/README
+  /usr/share/doc/exo/THANKS
+  /usr/share/doc/exo/TODO
   /usr/share/icons/hicolor/24x24/apps/preferences-desktop-default-applications.png
   /usr/share/icons/hicolor/48x48/apps/applications-internet.png
   /usr/share/icons/hicolor/48x48/apps/applications-other.png
@@ -284,23 +284,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.3.100-1 -----
-Version bump.
-
------ version 0.3.99.1-1 -----
-Version bump for Xfce 4.6-rc1.
-
------ version 0.3.92-1 -----
-Version bump for Xfce 4.6-beta2.
-
------ version 0.3.91-1 -----
-Version bump for Xfce 4.6-beta1.
-
------ version 0.3.2-2 -----
-Rebuilt for python-2.5.
-
------ version 0.3.2-1 -----
-Initial release of Xfce 4.4 for Cygwin.
+----- version 0.3.101-1 -----
+Initial release of Xfce 4.6 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
