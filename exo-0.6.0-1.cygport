@@ -1,0 +1,13 @@
+inherit pygtk xfce4
+
+DESCRIPTION="Xfce4 extension library"
+
+PATCH_URI="0.3.91-no-undefined.patch"
+
+PKG_NAMES="${PN} libexo1_0 libexo1-devel python-exo0.6 python-pyexo"
+exo_CONTENTS="etc/ usr/bin/exo-* usr/share/applications/ usr/share/doc/
+              usr/share/icons/ usr/share/man/ usr/share/xfce4/"
+libexo1_0_CONTENTS='usr/bin/*-1-0.dll usr/lib/xfce4/exo-1/ usr/share/locale/ usr/share/pixmaps/'
+libexo1_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/ usr/share/gtk-doc/'
+python_exo0_6_CONTENTS="${PYTHON_SITELIB#/}/exo-0.6/ usr/share/pygtk/"
+python_pyexo_CONTENTS="${PYTHON_SITELIB#/}/pyexo.*"
