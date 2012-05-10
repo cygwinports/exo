@@ -1,8 +1,0 @@
-category: Xfce Python
-requires: libglib2.0_0 libgtk2.0_0 libexo1_0 python python-gobject2.0 python-gtk2.0 python-pyexo
-external-source: exo
-sdesc: "Xfce extension library (Python bindings)"
-ldesc: "This is libexo, an extension library to Xfce, developed by 
-os-cillation. While Xfce comes with quite a few libraries that are 
-targeted at desktop development, libexo is targeted at application 
-development."

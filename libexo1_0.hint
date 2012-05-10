@@ -1,5 +1,5 @@
 category: Xfce
-requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libX11_6 libcairo2 libintl8 libxfce4util4 libpango1.0_0
+requires: libatk1.0_0 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libX11_6 libcairo2 libintl8 libxfce4ui1_0 libxfce4util6 libpango1.0_0
 external-source: exo
 sdesc: "Xfce extension library (runtime)"
 ldesc: "This is libexo, an extension library to Xfce, developed by 

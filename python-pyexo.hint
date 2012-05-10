@@ -1,8 +1,0 @@
-category: Python Xfce
-requires: python
-external-source: exo
-sdesc: "Xfce extension library (Python version selector)"
-ldesc: "This is libexo, an extension library to Xfce, developed by 
-os-cillation. While Xfce comes with quite a few libraries that are 
-targeted at desktop development, libexo is targeted at application 
-development."
