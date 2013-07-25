@@ -1,8 +1,0 @@
-category: Xfce
-requires: libexo1_0 libglib2.0-devel libgtk2.0-devel libxfce4util-devel
-external-source: exo
-sdesc: "Xfce extension library (development)"
-ldesc: "This is libexo, an extension library to Xfce, developed by 
-os-cillation. While Xfce comes with quite a few libraries that are 
-targeted at desktop development, libexo is targeted at application 
-development."

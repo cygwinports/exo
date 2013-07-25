@@ -1,7 +1,0 @@
-category: Xfce
-requires: libexo1_0 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libxfce4ui1_0 libxfce4util6 libpango1.0_0
-sdesc: "Xfce extension library (utilities)"
-ldesc: "This is libexo, an extension library to Xfce, developed by 
-os-cillation. While Xfce comes with quite a few libraries that are 
-targeted at desktop development, libexo is targeted at application 
-development."
