@@ -1,7 +1,7 @@
 inherit xfce4
 
 NAME="exo"
-VERSION=0.10.2
+VERSION=0.10.7
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Xfce extension library"
@@ -11,7 +11,6 @@ is targeted at application development."
 PATCH_URI="
 	http://pkgs.fedoraproject.org/cgit/exo.git/plain/exo-0.7.2-remove-xfce-category.patch
 	http://pkgs.fedoraproject.org/cgit/exo.git/plain/exo-0.10.2-default-apps.patch
-	http://pkgs.fedoraproject.org/cgit/exo.git/plain/exo-0.10.2-magnet-links.patch
 "
 
 PKG_NAMES="exo libexo1_0 libexo1-common libexo1-devel"
